@@ -1,0 +1,20 @@
+[project]
+title = "Chocolate Sales Dashboard"
+version = "0.1.2"
+port = 8501
+slug = "studio"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Chocolate Sales Dashboard"
+logo = "images/chocolate.webp"
+favicon = "images/choco.png"
+primaryColor = "#F89613"
+
+[data.chocolatedata_csv]
+type = "csv"
+path = "data/chocolatedata.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
